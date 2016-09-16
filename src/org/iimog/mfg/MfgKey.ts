@@ -5,23 +5,7 @@ class MfgKey
     public static KEY_RIGHT:number = 39;
     public static KEY_DOWN:number = 40;
 
-    private static currentlyPressed:Array<number> = [];
-
-    public static keyPressed(keyCode:number):void
-    {
-        if(!MfgKey.isKeyPressed(keyCode)){
-            MfgKey.currentlyPressed.push(keyCode)
-        }
-        // MfgDebug.log('Key pressed: '+keyCode);
-    }
-
-    public static keyReleased(keyCode:number):void
-    {
-        if(MfgKey.isKeyPressed(keyCode)){
-            MfgKey.currentlyPressed.splice(MfgKey.currentlyPressed.indexOf(keyCode), 1);
-        }
-        // MfgDebug.log('Key released: '+keyCode);
-    }
+    private static currentlyPressed:Array<boolean> = [];
 
     public static init():void
     {
@@ -33,8 +17,21 @@ class MfgKey
         }, false);
     }
 
-    public static isKeyPressed(keyCode:number):boolean{
-        return MfgKey.currentlyPressed.indexOf(keyCode) >= 0;
+    public static keyPressed(keyCode:number):void
+    {
+        MfgKey.currentlyPressed[keyCode] = true;
+        // MfgDebug.log('Key pressed: '+keyCode);
+    }
+
+    public static keyReleased(keyCode:number):void
+    {
+        MfgKey.currentlyPressed[keyCode] = false;
+        // MfgDebug.log('Key released: '+keyCode);
+    }
+
+    public static isKeyPressed(keyCode:number):boolean
+    {
+        return MfgKey.currentlyPressed[keyCode];
     }
 }
 
