@@ -3,8 +3,11 @@ class Mfg
     public static main():void
     {
         MfgDebug.log("Mfg");
+
         MfgKey.init();
-        // MfgThread.init();
+        MfgCanvas.init();
+        MfgThread.init();
+
     }
 }
 

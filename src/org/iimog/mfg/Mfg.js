@@ -4,7 +4,8 @@ var Mfg = (function () {
     Mfg.main = function () {
         MfgDebug.log("Mfg");
         MfgKey.init();
-        // MfgThread.init();
+        MfgCanvas.init();
+        MfgThread.init();
     };
     return Mfg;
 }());

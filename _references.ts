@@ -3,3 +3,5 @@
 /// <reference path="src/org/iimog/mfg/MfgSetting.ts" />
 /// <reference path="src/org/iimog/mfg/hid/MfgKey.ts" />
 /// <reference path="src/org/iimog/mfg/util/MfgThread.ts" />
+/// <reference path="src/org/iimog/mfg/ui/MfgCanvas.ts" />
+/// <reference path="src/org/iimog/mfg/ui/MfgDrawing.ts" />

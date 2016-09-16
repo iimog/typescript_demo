@@ -2,14 +2,10 @@ var MfgThread = (function () {
     function MfgThread() {
     }
     MfgThread.init = function () {
-        window.setInterval(function () {
-            if (MfgKey.isKeyPressed(MfgKey.KEY_DOWN)) {
-                MfgDebug.log('Down gedruckt.');
-            }
-            else {
-                MfgDebug.log('Down nicht gedruckt.');
-            }
-        }, 500);
+        window.setInterval(MfgThread.tick, MfgSetting.THREAD_DELAY);
+    };
+    MfgThread.tick = function () {
+        MfgDebug.log('active');
     };
     return MfgThread;
 }());
