@@ -1,9 +1,9 @@
 class MfgKey
 {
-    public static KEY_UP:number = 38;
-    public static KEY_DOWN:number = 40;
     public static KEY_LEFT:number = 37;
+    public static KEY_UP:number = 38;
     public static KEY_RIGHT:number = 39;
+    public static KEY_DOWN:number = 40;
 
     private static currentlyPressed:Array<number> = [];
 
