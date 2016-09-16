@@ -4,7 +4,7 @@ class Mfg
     {
         MfgDebug.log("Mfg");
         MfgKey.init();
-        MfgThread.init();
+        // MfgThread.init();
     }
 }
 
