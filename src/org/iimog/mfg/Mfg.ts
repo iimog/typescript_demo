@@ -9,7 +9,6 @@ class Mfg
         MfgKey.init();
         MfgCanvas.init();
         MfgThread.init();
-
     }
 }
 

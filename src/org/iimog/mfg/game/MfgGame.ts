@@ -5,6 +5,7 @@ class MfgGame
     public static init():void
     {
         MfgGame.player = new MfgPlayer();
+        MfgItem.init();
     }
 
     public static tick():void
@@ -23,5 +24,6 @@ class MfgGame
     {
         MfgDrawing.fillRect(MfgCanvas.context, 0, 0, MfgSetting.CANVAS_WIDTH, MfgSetting.CANVAS_HEIGHT, MfgSetting.COLOR_BACKGROUND);
         MfgGame.player.draw();
+        MfgItem.drawAll();
     }
 }
