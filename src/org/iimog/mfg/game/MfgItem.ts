@@ -21,8 +21,8 @@ class MfgItem
         for(var i:number = 0; i<MfgSetting.ITEM_COUNT; ++i){
             MfgItem.items.push(
                 new MfgItem(
-                    MfgItem.generateRandomNumber(0,MfgSetting.CANVAS_WIDTH),
-                    MfgItem.generateRandomNumber(0,MfgSetting.CANVAS_HEIGHT)
+                    MfgItem.generateRandomNumber(0, MfgSetting.CANVAS_WIDTH - MfgSetting.ITEM_WIDTH),
+                    MfgItem.generateRandomNumber(0, MfgSetting.CANVAS_HEIGHT - MfgSetting.ITEM_HEIGHT)
                 )
             );
         }

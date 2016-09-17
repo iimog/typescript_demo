@@ -23,4 +23,23 @@ class MfgPlayer
         if (this.x + MfgSetting.PLAYER_WIDTH > MfgSetting.CANVAS_WIDTH) this.x = MfgSetting.CANVAS_WIDTH - MfgSetting.PLAYER_WIDTH;
         if (this.y + MfgSetting.PLAYER_HEIGHT > MfgSetting.CANVAS_HEIGHT) this.y = MfgSetting.CANVAS_HEIGHT - MfgSetting.PLAYER_HEIGHT;
     }
+
+    public checkItemCollision():void
+    {
+        for (let item of MfgItem.items)
+        {
+            if (
+                   item.x + MfgSetting.ITEM_WIDTH  < this.x
+                || item.x                          > this.x + MfgSetting.PLAYER_WIDTH
+                || item.y + MfgSetting.ITEM_HEIGHT < this.y
+                || item.y                          > this.y + MfgSetting.PLAYER_HEIGHT
+            ){
+
+            }
+            else
+            {
+                MfgDebug.log("Collision!");
+            }
+        }
+    }
 }

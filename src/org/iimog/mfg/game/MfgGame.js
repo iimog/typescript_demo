@@ -12,6 +12,7 @@ var MfgGame = (function () {
     MfgGame.render = function () {
         MfgGame.player.handleKeys();
         MfgGame.player.clipToLevelBounds();
+        MfgGame.player.checkItemCollision();
     };
     MfgGame.draw = function () {
         MfgDrawing.fillRect(MfgCanvas.context, 0, 0, MfgSetting.CANVAS_WIDTH, MfgSetting.CANVAS_HEIGHT, MfgSetting.COLOR_BACKGROUND);

@@ -18,6 +18,7 @@ class MfgGame
     {
         MfgGame.player.handleKeys();
         MfgGame.player.clipToLevelBounds();
+        MfgGame.player.checkItemCollision();
     }
 
     public static draw():void

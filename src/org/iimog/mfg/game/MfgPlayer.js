@@ -26,6 +26,19 @@ var MfgPlayer = (function () {
         if (this.y + MfgSetting.PLAYER_HEIGHT > MfgSetting.CANVAS_HEIGHT)
             this.y = MfgSetting.CANVAS_HEIGHT - MfgSetting.PLAYER_HEIGHT;
     };
+    MfgPlayer.prototype.checkItemCollision = function () {
+        for (var _i = 0, _a = MfgItem.items; _i < _a.length; _i++) {
+            var item = _a[_i];
+            if (item.x + MfgSetting.ITEM_WIDTH < this.x
+                || item.x > this.x + MfgSetting.PLAYER_WIDTH
+                || item.y + MfgSetting.ITEM_HEIGHT < this.y
+                || item.y > this.y + MfgSetting.PLAYER_HEIGHT) {
+            }
+            else {
+                MfgDebug.log("Collision!");
+            }
+        }
+    };
     return MfgPlayer;
 }());
 //# sourceMappingURL=MfgPlayer.js.map
