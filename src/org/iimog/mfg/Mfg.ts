@@ -4,6 +4,8 @@ class Mfg
     {
         MfgDebug.log("Mfg");
 
+        MfgGame.init();
+
         MfgKey.init();
         MfgCanvas.init();
         MfgThread.init();

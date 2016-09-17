@@ -4,8 +4,8 @@ var MfgCanvas = (function () {
     MfgCanvas.init = function () {
         var canvas = document.createElement('canvas');
         canvas.id = "MfgCanvas";
-        canvas.width = 500;
-        canvas.height = 500;
+        canvas.width = MfgSetting.CANVAS_WIDTH;
+        canvas.height = MfgSetting.CANVAS_HEIGHT;
         canvas.style.position = "absolute";
         document.body.appendChild(canvas);
         MfgCanvas.context = canvas.getContext('2d');

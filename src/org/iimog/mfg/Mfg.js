@@ -3,6 +3,7 @@ var Mfg = (function () {
     }
     Mfg.main = function () {
         MfgDebug.log("Mfg");
+        MfgGame.init();
         MfgKey.init();
         MfgCanvas.init();
         MfgThread.init();

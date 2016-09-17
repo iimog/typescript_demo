@@ -1,9 +1,9 @@
 var MfgDrawing = (function () {
     function MfgDrawing() {
     }
-    MfgDrawing.drawRect = function (context, x, y, width, height, color) {
-        context.rect(x, y, width, height);
-        context.fill();
+    MfgDrawing.fillRect = function (context, x, y, width, height, color) {
+        context.fillStyle = color;
+        context.fillRect(x, y, width, height);
     };
     return MfgDrawing;
 }());

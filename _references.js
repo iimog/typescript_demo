@@ -4,5 +4,7 @@
 /// <reference path="src/org/iimog/mfg/hid/MfgKey.ts" />
 /// <reference path="src/org/iimog/mfg/util/MfgThread.ts" />
 /// <reference path="src/org/iimog/mfg/ui/MfgCanvas.ts" />
-/// <reference path="src/org/iimog/mfg/ui/MfgDrawing.ts" /> 
+/// <reference path="src/org/iimog/mfg/ui/MfgDrawing.ts" />
+/// <reference path="src/org/iimog/mfg/game/MfgGame.ts" />
+/// <reference path="src/org/iimog/mfg/game/MfgPlayer.ts" /> 
 //# sourceMappingURL=_references.js.map

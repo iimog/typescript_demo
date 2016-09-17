@@ -1,8 +1,8 @@
 class MfgDrawing
 {
-    public static drawRect(context:CanvasRenderingContext2D, x:number, y:number, width:number, height:number, color:string)
+    public static fillRect(context:CanvasRenderingContext2D, x:number, y:number, width:number, height:number, color:string)
     {
-        context.rect(x, y, width, height);
-        context.fill();
+        context.fillStyle = color;
+        context.fillRect(x, y, width, height);
     }
 }
