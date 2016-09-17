@@ -7,6 +7,7 @@ var MfgItem = (function () {
     }
     MfgItem.prototype.draw = function () {
         MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.ITEM_WIDTH, MfgSetting.ITEM_HEIGHT, MfgSetting.COLOR_ITEM);
+        MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgItem, this.x, this.y);
     };
     MfgItem.init = function () {
         MfgItem.items = [];

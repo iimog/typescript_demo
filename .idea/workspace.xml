@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e287bc-7323-49ef-b7f4-61d3143bf3da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_references.js" afterPath="$PROJECT_DIR$/_references.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_references.js.map" afterPath="$PROJECT_DIR$/_references.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_references.ts" afterPath="$PROJECT_DIR$/_references.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.js" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.js.map" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.js" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.js.map" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.js" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.js.map" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.ts" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.js" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.js.map" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts" afterPath="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts" />
     </list>
     <ignored path="typescript_demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,18 +46,28 @@
       <file leaf-file-name="MfgGame.ts" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="108">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MfgImage.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MfgImage.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MfgDrawing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -67,8 +86,8 @@
       <file leaf-file-name="_references.ts" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_references.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="180">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -77,8 +96,8 @@
       <file leaf-file-name="index.html" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+            <state relative-caret-position="216">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -97,18 +116,18 @@
       <file leaf-file-name="MfgPlayer.ts" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MfgItem.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MfgItem.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="108">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -125,15 +144,16 @@
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/MfgDebug.ts" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/MfgKey.ts" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/util/MfgThread.ts" />
-        <option value="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgCanvas.ts" />
-        <option value="$PROJECT_DIR$/_references.ts" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/Mfg.ts" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/MfgSetting.ts" />
-        <option value="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts" />
+        <option value="$PROJECT_DIR$/_references.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts" />
+        <option value="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts" />
+        <option value="$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts" />
         <option value="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.ts" />
+        <option value="$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts" />
       </list>
     </option>
   </component>
@@ -341,6 +361,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typescript_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="typescript_demo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -427,7 +465,7 @@
       <updated>1474036491794</updated>
       <workItem from="1474036492936" duration="5783000" />
       <workItem from="1474042302848" duration="1872000" />
-      <workItem from="1474103538300" duration="5076000" />
+      <workItem from="1474103538300" duration="8276000" />
     </task>
     <task id="LOCAL-00001" summary="Include Debug and Settings in index">
       <created>1474037331816</created>
@@ -485,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474107705575</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add collisions">
+      <created>1474116903123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1474116903123</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12731000" />
+    <option name="totallyTimeSpent" value="15931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1920" height="1043" extended-state="0" />
@@ -539,7 +584,8 @@
     <MESSAGE value="Add drawing of background and player" />
     <MESSAGE value="Add player movement" />
     <MESSAGE value="Add items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add items" />
+    <MESSAGE value="Add collisions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add collisions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -642,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgCanvas.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -660,16 +698,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_references.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="180">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state relative-caret-position="216">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -690,34 +728,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts">
+    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="108">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgDrawing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgPlayer.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgGame.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/res/image/item.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/ui/MfgImage.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/iimog/mfg/game/MfgItem.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
           <folding />
         </state>
       </provider>

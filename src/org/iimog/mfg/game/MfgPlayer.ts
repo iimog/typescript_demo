@@ -6,6 +6,7 @@ class MfgPlayer
     public draw():void
     {
         MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.PLAYER_WIDTH, MfgSetting.PLAYER_HEIGHT, MfgSetting.COLOR_PLAYER);
+        MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgPlayer, this.x, this.y);
     }
 
     public handleKeys():void

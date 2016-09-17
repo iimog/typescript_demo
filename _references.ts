@@ -8,3 +8,4 @@
 /// <reference path="src/org/iimog/mfg/game/MfgGame.ts" />
 /// <reference path="src/org/iimog/mfg/game/MfgPlayer.ts" />
 /// <reference path="src/org/iimog/mfg/game/MfgItem.ts" />
+/// <reference path="src/org/iimog/mfg/ui/MfgImage.ts" />

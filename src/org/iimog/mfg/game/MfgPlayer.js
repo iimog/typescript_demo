@@ -5,6 +5,7 @@ var MfgPlayer = (function () {
     }
     MfgPlayer.prototype.draw = function () {
         MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.PLAYER_WIDTH, MfgSetting.PLAYER_HEIGHT, MfgSetting.COLOR_PLAYER);
+        MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgPlayer, this.x, this.y);
     };
     MfgPlayer.prototype.handleKeys = function () {
         if (MfgKey.isKeyPressed(MfgKey.KEY_UP))
