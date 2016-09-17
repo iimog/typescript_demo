@@ -36,7 +36,7 @@ var MfgPlayer = (function () {
                 || item.y > this.y + MfgSetting.PLAYER_HEIGHT) {
             }
             else {
-                MfgDebug.log("Collision!");
+                item.isCollected = true;
             }
         }
     };

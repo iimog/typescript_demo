@@ -2,12 +2,15 @@ var MfgItem = (function () {
     function MfgItem(x, y) {
         this.x = 0;
         this.y = 0;
+        this.isCollected = false;
         this.x = x;
         this.y = y;
     }
     MfgItem.prototype.draw = function () {
-        MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.ITEM_WIDTH, MfgSetting.ITEM_HEIGHT, MfgSetting.COLOR_ITEM);
-        MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgItem, this.x, this.y);
+        if (!this.isCollected) {
+            MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.ITEM_WIDTH, MfgSetting.ITEM_HEIGHT, MfgSetting.COLOR_ITEM);
+            MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgItem, this.x, this.y);
+        }
     };
     MfgItem.init = function () {
         MfgItem.items = [];

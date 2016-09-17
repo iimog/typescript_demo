@@ -39,7 +39,7 @@ class MfgPlayer
             }
             else
             {
-                MfgDebug.log("Collision!");
+                item.isCollected = true;
             }
         }
     }

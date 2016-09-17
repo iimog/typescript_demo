@@ -2,18 +2,23 @@ class MfgItem
 {
     public static items:Array<MfgItem> = null;
 
-    public x = 0;
-    public y = 0;
+    public x:number = 0;
+    public y:number = 0;
+    public isCollected:boolean = false;
 
-    public constructor(x:number, y:number){
+    public constructor(x:number, y:number)
+    {
         this.x = x;
         this.y = y;
     }
 
     public draw():void
     {
-        MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.ITEM_WIDTH, MfgSetting.ITEM_HEIGHT, MfgSetting.COLOR_ITEM);
-        MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgItem, this.x, this.y);
+        if(!this.isCollected)
+        {
+            MfgDrawing.fillRect(MfgCanvas.context, this.x, this.y, MfgSetting.ITEM_WIDTH, MfgSetting.ITEM_HEIGHT, MfgSetting.COLOR_ITEM);
+            MfgDrawing.drawImage(MfgCanvas.context, MfgImage.imgItem, this.x, this.y);
+        }
     }
 
     public static init():void

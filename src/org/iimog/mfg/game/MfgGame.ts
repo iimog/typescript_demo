@@ -6,8 +6,8 @@ class MfgGame
     {
         MfgImage.init();
         //MfgImage.loadImages([MfgSetting.PLAYER_IMAGE, MfgSetting.ITEM_IMAGE], ()=>{
-            MfgGame.player = new MfgPlayer();
-            MfgItem.init();
+        MfgGame.player = new MfgPlayer();
+        MfgItem.init();
         //});
     }
 
