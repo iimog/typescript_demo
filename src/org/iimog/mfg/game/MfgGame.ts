@@ -15,7 +15,8 @@ class MfgGame
 
     public static render():void
     {
-
+        MfgGame.player.handleKeys();
+        MfgGame.player.clipToLevelBounds();
     }
 
     public static draw():void

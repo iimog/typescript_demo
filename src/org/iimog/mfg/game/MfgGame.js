@@ -9,6 +9,8 @@ var MfgGame = (function () {
         MfgGame.draw();
     };
     MfgGame.render = function () {
+        MfgGame.player.handleKeys();
+        MfgGame.player.clipToLevelBounds();
     };
     MfgGame.draw = function () {
         MfgDrawing.fillRect(MfgCanvas.context, 0, 0, MfgSetting.CANVAS_WIDTH, MfgSetting.CANVAS_HEIGHT, MfgSetting.COLOR_BACKGROUND);

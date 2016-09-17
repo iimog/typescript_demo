@@ -8,6 +8,7 @@ var MfgSetting = (function () {
     MfgSetting.CANVAS_HEIGHT = 500;
     MfgSetting.PLAYER_WIDTH = 50;
     MfgSetting.PLAYER_HEIGHT = 50;
+    MfgSetting.PLAYER_SPEED = 5;
     return MfgSetting;
 }());
 //# sourceMappingURL=MfgSetting.js.map

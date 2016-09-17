@@ -6,8 +6,9 @@ class MfgSetting
     public static COLOR_PLAYER:string = 'rgba(255, 0, 0, 1.0)';
 
     public static CANVAS_WIDTH:number = 500;
-
     public static CANVAS_HEIGHT:number = 500;
+
     public static PLAYER_WIDTH:number = 50;
     public static PLAYER_HEIGHT:number = 50;
+    public static PLAYER_SPEED:number = 5;
 }
