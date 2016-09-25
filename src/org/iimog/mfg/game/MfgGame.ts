@@ -5,10 +5,8 @@ class MfgGame
     public static init():void
     {
         MfgImage.init();
-        //MfgImage.loadImages([MfgSetting.PLAYER_IMAGE, MfgSetting.ITEM_IMAGE], ()=>{
         MfgGame.player = new MfgPlayer();
         MfgItem.init();
-        //});
     }
 
     public static tick():void

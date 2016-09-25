@@ -3,10 +3,8 @@ var MfgGame = (function () {
     }
     MfgGame.init = function () {
         MfgImage.init();
-        //MfgImage.loadImages([MfgSetting.PLAYER_IMAGE, MfgSetting.ITEM_IMAGE], ()=>{
         MfgGame.player = new MfgPlayer();
         MfgItem.init();
-        //});
     };
     MfgGame.tick = function () {
         MfgGame.render();

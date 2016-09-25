@@ -1,6 +1,14 @@
 var MfgPlayer = (function () {
     function MfgPlayer() {
+        /**
+         * x coordinate of the player
+         * @type {number}
+         */
         this.x = 0;
+        /**
+         * y coordinate of the player
+         * @type {number}
+         */
         this.y = 0;
     }
     MfgPlayer.prototype.draw = function () {
@@ -17,6 +25,9 @@ var MfgPlayer = (function () {
         if (MfgKey.isKeyPressed(MfgKey.KEY_RIGHT))
             this.x += MfgSetting.PLAYER_SPEED;
     };
+    /**
+     * Avoids moving the player beyond level bounds
+     */
     MfgPlayer.prototype.clipToLevelBounds = function () {
         if (this.x < 0)
             this.x = 0;
@@ -27,6 +38,9 @@ var MfgPlayer = (function () {
         if (this.y + MfgSetting.PLAYER_HEIGHT > MfgSetting.CANVAS_HEIGHT)
             this.y = MfgSetting.CANVAS_HEIGHT - MfgSetting.PLAYER_HEIGHT;
     };
+    /**
+     * Handles the event that the player touches an item
+     */
     MfgPlayer.prototype.checkItemCollision = function () {
         for (var _i = 0, _a = MfgItem.items; _i < _a.length; _i++) {
             var item = _a[_i];

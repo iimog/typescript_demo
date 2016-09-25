@@ -1,6 +1,15 @@
 class MfgPlayer
 {
+    /**
+     * x coordinate of the player
+     * @type {number}
+     */
     public x:number = 0;
+
+    /**
+     * y coordinate of the player
+     * @type {number}
+     */
     public y:number = 0;
 
     public draw():void
@@ -17,6 +26,9 @@ class MfgPlayer
         if (MfgKey.isKeyPressed(MfgKey.KEY_RIGHT)) this.x += MfgSetting.PLAYER_SPEED;
     }
 
+    /**
+     * Avoids moving the player beyond level bounds
+     */
     public clipToLevelBounds():void
     {
         if (this.x < 0) this.x = 0;
@@ -25,6 +37,9 @@ class MfgPlayer
         if (this.y + MfgSetting.PLAYER_HEIGHT > MfgSetting.CANVAS_HEIGHT) this.y = MfgSetting.CANVAS_HEIGHT - MfgSetting.PLAYER_HEIGHT;
     }
 
+    /**
+     * Handles the event that the player touches an item
+     */
     public checkItemCollision():void
     {
         for (let item of MfgItem.items)
